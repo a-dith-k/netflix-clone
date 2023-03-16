@@ -1,0 +1,368 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background:black;
+
+}
+
+header{
+    width:100%;
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url("../images/bg1.jpg");
+    background-position-y:75%;
+    background-position-x:18%;
+}
+nav{
+    width:100%;
+    height:10vh;
+    /*background: bisque;*/
+}
+.nav-row{
+    margin-right:175px;
+    margin-left:175px;
+    height:10vh;
+    /*background: aquamarine;*/
+}
+
+.nav-coloumn-1{
+    width:70%;
+    height:auto;
+    /*background:aqua;*/
+    float:left;
+}
+.logo-image{
+    padding-top: 28px;
+    width: 147px;
+    max-width: 202px;
+    height: 69px;
+}
+
+.nav-coloumn-2{
+  width:20%;
+    height:100%;
+    /*background: cadetblue;*/
+    display: inline-block;
+    float:left;
+}
+.language-menu{
+    margin-left:112px;
+    max-width:122px;
+    width:100%;
+    height:30px;
+    font-size:1rem;
+    border-radius: 0.2em;
+    margin-top: 27px;
+    background:#28292960;
+    /*font-family: 'FontAwesome', '';*/
+    color: rgb(255,255,255);
+
+}
+
+.lang-hindi{
+    font-family: "Arial Narrow";
+}
+
+.nav-coloumn-3{
+    float:left;
+    width:10%;
+
+}
+.Sign-in-button{
+    margin-top: 27px;
+    width:77px;
+    height:32px;
+    margin-left:30px;
+    background:red;
+    color: white;
+    border-radius: 5px;
+    font-size:15px;
+    font-weight: bold;
+    border: none;
+}
+
+.header-content{
+    width:100%;
+    height:400px;
+    padding-top:100px;
+    text-align: center;
+    color: white;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.header-text-head{
+    font-size:48px;
+    font-weight: bold;
+}
+
+.header-text{
+    font-size: 24px;
+    margin: 16px 0px 0px;
+    font-weight:bold;
+    margin-bottom: 24px;
+}
+.header-text-2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.email-input{
+    width:350px;
+    height:55px;
+    background:#28292980;
+    border-radius:4px;
+    border-width: thin;
+    border-style: solid;
+    padding:24px 0px 18px 20px;
+}
+::placeholder{
+    opacity:0.7;
+    color: white;
+    font-size: medium;
+}
+
+.get-started-btn{
+
+    width:180px;
+    height:55px;
+    background:red;
+    color: white;
+    border-radius: 4px;
+    font-size:20px;
+    font-weight: bold;
+    border: none;
+  text-align: center;
+}
+
+hr{
+    height: 9px;
+    background:#232323;
+    border:none;
+}
+
+.section{
+    width:100%;
+    height:578px;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+}
+.inner-div-section-1{
+    margin:72px 175px;
+}
+.text{
+    height:100%;
+    width:50%;
+    padding-top:138px;
+    float:left;
+}
+.video-part{
+    height:100%;
+    width:50%;
+    float:left;
+    position: relative;
+    z-index:-1;
+
+}
+.tv-image{
+    position:absolute;
+}
+
+.videos{
+    position: absolute;
+    z-index:-1;
+
+}
+.video{
+    margin-top:90px;
+    margin-left:70px;
+}
+
+
+.inner-div-section-2{
+    margin:72px 175px;
+}
+.img-part{
+    height:100%;
+    width:50%;
+    float:left;
+}
+
+.image{
+
+}
+
+
+
+.mobile-img{
+    height:100%;
+    width:100%;
+    z-index: -1;
+
+}
+.inner-image{
+    position: relative;
+    bottom: 8rem;
+    margin: 0 auto;
+    background:rgba(0, 0, 0, 1);
+    width: 19rem;
+    height: 6rem;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 1);
+}
+.st-img{
+    width:100%;
+    max-width:3.5rem;
+    float:left;
+}
+
+.stn-text{
+    float:left;
+    margin-top:1rem;
+    font-weight: bold;
+    margin-left:1rem;
+
+}
+
+.blue-downl{
+    color: #005eff;
+    font-weight: lighter;
+}
+
+.down-graphics{
+    width:3rem;
+    height:3rem;
+    margin: 1rem 0 0.7rem 2rem;
+    display: flex;
+    float: left;
+}
+.inner-div-section-3{
+    margin:72px 175px;
+}
+.mac-video{
+    margin-top: 37px;
+    margin-left: 123px;
+    height: 16rem;
+    width: 25rem;
+}
+
+.inner-div-section-4{
+    margin:72px 175px;
+}
+
+
+#section-5{
+    width:100%;
+    padding: 72px 175px;
+    color:white;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    text-align: center;
+}
+.faq{
+    margin-bottom: 1rem;
+}
+.drop-btn{
+    background: #2D2D2D;
+    margin-bottom: 0.5rem;
+}
+.faq-button{
+    width:100%;
+    height:75px;
+    background: #2D2D2D;
+    border: none;
+    text-align: left;
+    color: white;
+    font-size:x-large;
+    padding-left: 2rem;
+    margin-bottom: .6rem;
+
+}
+.drop-div{
+   font-size: x-large;
+    text-align: left;
+    padding-left:1rem;
+    display: none;
+}
+
+.faq-button:hover~.drop-div{
+    display:block;
+}
+
+.faq-button:hover{
+    background:#474747;
+
+}
+
+footer{
+    width:100%;
+    height:496px;
+    padding:60px 175px;
+}
+
+.inner-div-footer{
+    width:100%;
+    height:100%;
+    color:white;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.footer-top{
+    width:100%;
+    margin-bottom: 1.5rem;
+
+
+}
+.footer-b{
+    width:100%;
+    margin-left: 2px;
+}
+ul{
+    list-style-type: none;
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    font-weight: lighter;
+
+}
+
+li{
+    margin-bottom: 4px;
+    float: left;
+
+}
+a{
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+
+.footer-lang-menu{
+    margin: 30px 0 30px;
+    padding:0;
+}
+
+
+@media screen and (max-width: 600px) {
+    .nav-row{
+        margin-left:10px;
+        height:10vh;
+        /*background: aquamarine;*/
+        width:700px;
+    }
+    .nav-coloumn-1{
+        width:110px;
+    }
+    .nav-coloumn-2{
+        width:40px;
+    }
+    .nav-coloumn-3{
+        width:100px;
+    }
+    .language-menu{
+        margin-left:90px;
+    }
+    .Sign-in-button{
+        margin-left:120px;
+    }
+}
